@@ -1,4 +1,5 @@
-function addition(a, b) {
-  return a + b;
+function renderH1(input) {
+  return <h1>{input}</h1>;
 }
-module.exports = addition;
+
+module.exports = renderH1;
